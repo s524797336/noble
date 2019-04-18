@@ -5,9 +5,9 @@
     "Luis Montes"
   ],
   "license": "MIT",
-  "name": "noble",
+  "name": "@s524797336/noble",
   "description": "A Node.js BLE (Bluetooth Low Energy) central library.",
-  "version": "1.9.1",
+  "version": "1.0.0-alpha.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/sandeepmistry/noble.git"
@@ -36,9 +36,9 @@
     "debug": "~2.2.0"
   },
   "optionalDependencies": {
+    "@s524797336/xpc-connection": "^0.1.5",
     "bluetooth-hci-socket": "^0.5.1",
-    "bplist-parser": "0.0.6",
-    "xpc-connection": "~0.1.4"
+    "bplist-parser": "0.0.6"
   },
   "devDependencies": {
     "jshint": "latest",
